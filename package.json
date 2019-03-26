@@ -1,0 +1,32 @@
+{
+  "name": "jogo-da-velha-api",
+  "version": "0.0.1",
+  "description": "Api to implements demo node of jogo-da-velha-js",
+  "main": "dist/application.js",
+  "scripts": {
+    "start": "nodemon --watch ./src --exec ts-node src/application.ts -e ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codermarcos/jogo-da-velha-api.git"
+  },
+  "author": "codermarcos",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/codermarcos/jogo-da-velha-api/issues"
+  },
+  "homepage": "https://github.com/codermarcos/jogo-da-velha-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/url-parse": "^1.4.3",
+    "@types/ws": "^6.0.1",
+    "jogo-da-velha-js": "file:../jogo-da-velha-js",
+    "url-parse": "^1.4.4",
+    "ws": "^6.2.0"
+  }
+}
